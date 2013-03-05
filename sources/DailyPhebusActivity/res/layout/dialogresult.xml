@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <TextView
+        android:id="@+id/infoBus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="15dp"
+        android:gravity="center"
+		android:textSize="14dp" />
+    
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:stretchColumns="0,1" android:id="@+id/main_table" android:padding="6dp" android:layout_weight="1" android:layout_height="0dip" android:layout_width="match_parent">
+    </TableLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+
+
+
+
+            <Button
+                android:id="@+id/prevHour"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.56"
+                android:text="@string/prevHour" />
+
+
+
+			<Button
+                android:id="@+id/closeSchedules"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.56"
+                android:text="@string/close" />
+
+
+
+            <Button
+                android:id="@+id/nextHour"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.56"
+                android:text="@string/nextHour" />
+
+
+    </LinearLayout>
+   
+    
+</LinearLayout>

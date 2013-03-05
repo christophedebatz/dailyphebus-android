@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daily Phebus</string>
+    <string name="busLine">Ligne de bus</string>
+    <string name="busStop">Arrêt de bus</string>
+    <string name="direction">Direction</string>
+    <string name="date">Date horaires</string>
+    <string name="dailySchedules">Horaires journalières</string>
+    <string name="hourSchedule">Horaires de l\'heure</string>
+    <string name="time">Heure horaire</string>
+    <string name="speedSchedules">Horaires rapides</string>
+    <string name="close">Retour</string>
+    <string name="nextHour">&gt;&gt;</string>
+    <string name="prevHour">&lt;&lt;</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+     <TextView
+        android:id="@+id/infoBus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="15dp"
+        android:gravity="center"
+		android:textSize="14dp" />
+     
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="310dp" 
+>
+
+        
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:id="@+id/main_table" android:padding="5dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:stretchColumns="1,1">
+    </TableLayout>
+
+
+	</ScrollView>
+	
+     <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+			<Button
+                android:id="@+id/closeSchedules"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.56"
+                android:text="@string/close" />
+
+   </LinearLayout>
+    
+</LinearLayout>
